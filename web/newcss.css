@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23-mar-2016, 17.16.16
+    Author     : studente
+*/
+
+body
+{
+   /*TASK 1*/ 
+   font-size: 14px;
+   font-family: "Open Sans", "Arial", "sans-serif";
+   
+}
+/*TASK 2*/
+   #logo 
+   {
+       background-color: #1c345a;
+   }
+/*TASK 3*/
+   #header, #footer
+   {
+       color: white;
+   }
+/*TASK 4*/
+   .current_page_item 
+   {
+    font-weight:bold;
+   }
+   div #content h2{color:#9e1616;}
+/*TASK 5*/
+   h1,h2,h3,h4,h5,h6
+   {
+       color:#1c345a;
+   }
+/*TASK 6*/
+   a:link, a:visited
+   {
+       color:#9e1616;
+   }
+   a:hover
+   {
+       text-decoration:underline;
+       text-weight:bold;
+   }
