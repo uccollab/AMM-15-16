@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Inserisci un articolo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="inserire, annuncio, tostapane, rosso">
+        <meta name="description" content="Inserimento articolo">
+        <meta name="author" content="Simone Balloccu">
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    </head>
+    <body>
+        <header>
+            <div class="headerdiv">
+                <img class="headerlogo" title="logo" alt="logo" src="IMG/logo.png" width="70" height="50">
+                <h6 class="header">Red Millennium Toast</h6>
+            </div>
+            <ul class="header">
+                <li class="header"><a class="header" href="descrizione.html">Homepage</a></li>
+                <li class="header"><a class="header" href="cliente.html">Negozio</a></li>
+                <li class="header"><a class="header" href="login.html">Login</a></li>    
+            </ul>
+        </header>
+        <div id="page">
+         <div id="sidebar">
+            <p>Stiamo tostando la sidebar.</p>
+        </div>
+            
+        <!--FORM PER L'INSERIMENTO!-->
+        <div id="content">
+        <div class="venditore">
+            <h1>Inserisci un articolo</h1>
+            <form method="get">
+                <label for="Nome">Nome:</label>
+                <input type="text" name="Nome" id="Nome" placeholder="Niente di troppo lungo!"/>
+                <br>
+                <label for="URL">Immagine (link):</label>
+                <input type="text" name="URL" id="URL" placeholder="Assicurati sia attivo"/>
+                <br>
+                <label for="Descrizione">Descrizione:</label>
+                <textarea rows="5" cols="15" name="Descrizione" id="Descrizione" placeholder="Una breve descrizione di cosa offre il tuo articolo"></textarea>
+                <br>
+                <label for="Prezzo">Prezzo:</label>
+                <input type="text" name="Prezzo" id="Prezzo"/>€
+                <br>
+                <label for="Quantità">Pezzi:</label>
+                <input type="text" name="Quantità" id="Quantità"/> 
+                <br>
+                <input type="submit" value="Invia" />
+            </form>
+        </div>    
+        <!--NAVIGAZIONE!-->
+        <div>
+            <ul>
+                <li><a href="descrizione.html">Homepage</a></li>
+                <li><a href="login.html">login</a></li>
+            </ul>
+        </div>
+        </div>
+        </div>
+        <footer>
+            <h3>RMT: Costruiamo sogni rossi e caldi.</h3>
+        </footer>
+</body>
+</html>
